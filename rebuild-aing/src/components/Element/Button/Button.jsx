@@ -1,7 +1,7 @@
 function Tombol(props) {
-    const { children = "isi text nya bangg", color="bg-[#4868AD]", height="h-8", width="w-48", shadow} = props
+    const { children = "isi text nya bangg", height, width, shadow, color, className} = props
     return (
-        <button className={`${width} rounded ${height} ${shadow} text-white ${color} text-sm`}>
+        <button className={` ${className} ${width || "w-48"} rounded ${height || "h-8"} ${shadow} text-white ${color ||"bg-[#4868AD]" } text-sm`}>
             {children}
         </button>
     )
