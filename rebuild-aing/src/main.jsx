@@ -6,7 +6,6 @@ import Home from './pages/home.jsx';
 import Product from './pages/product.jsx';
 import SignUpPage from './pages/register.jsx';
 import LoginPage from './pages/login.jsx';
-import LoginBackupCode from './components/fragments/codelamalogin.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,10 +24,6 @@ const router = createBrowserRouter([
     path:"/login",
     element:<LoginPage/>
   },
-  {
-    path:"codelamalogin",
-    element:<LoginBackupCode/>
-  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

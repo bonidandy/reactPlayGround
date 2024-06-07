@@ -1,9 +1,8 @@
 import Login from "../components/fragments/Login"
 
-function LoginPage (){
-    return(
+function LoginPage() {
+    return (
         <Login>
-            
         </Login>
     )
 }

@@ -23,7 +23,7 @@ function SignUp() {
                             <Input text="lowercase" type="password" length="w-44" placeholder="Password" gap="pt-4" />
                         </div>
                         <div className="pt-4">
-                            <Tombol color="bg-[#1E2B4B]">Create new account</Tombol>
+                            <Tombol bgColor="bg-[#1E2B4B]">Create new account</Tombol>
                         </div>
                         <div className="pt-5">
                             <p className="text-xs">By joining, you agree to our Terms of</p>
