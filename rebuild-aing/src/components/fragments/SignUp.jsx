@@ -1,5 +1,5 @@
 import Input from "../Element/Input/Input"
-import Tombol from "../Element/Button/Button"
+import Button from "../Element/Button/Button"
 function SignUp() {
     return (
         <>
@@ -11,7 +11,7 @@ function SignUp() {
                         <p className="pt-2 text-sm">Take your art to the next level. Get it</p>
                         <p className="text-sm">seen by millions of people</p>
                         <div className="pt-4">
-                            <Tombol>Join with facebook</Tombol>
+                            <Button>Join with facebook</Button>
                         </div>
                         <p className="pt-4">or</p>
                         <div className="flex gap-3 pt-2">
@@ -23,7 +23,7 @@ function SignUp() {
                             <Input text="lowercase" type="password" length="w-44" placeholder="Password" gap="pt-4" />
                         </div>
                         <div className="pt-4">
-                            <Tombol bgColor="bg-[#1E2B4B]">Create new account</Tombol>
+                            <Button bgColor="bg-[#1E2B4B]">Create new account</Button>
                         </div>
                         <div className="pt-5">
                             <p className="text-xs">By joining, you agree to our Terms of</p>

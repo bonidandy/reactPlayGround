@@ -6,24 +6,29 @@ import Home from './pages/home.jsx';
 import Product from './pages/product.jsx';
 import SignUpPage from './pages/register.jsx';
 import LoginPage from './pages/login.jsx';
+import Counter from './pages/counter.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
+    element: <Home />,
   },
   {
-    path:"/signup",
-    element: <SignUpPage/>
+    path: "/signup",
+    element: <SignUpPage />
   },
   {
-    path:"/product",
-    element:<Product/>
+    path: "/product",
+    element: <Product />
   },
   {
-    path:"/login",
-    element:<LoginPage/>
+    path: "/login",
+    element: <LoginPage />
   },
+  {
+    path:"/counter",
+    element:<Counter/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,6 +1,10 @@
+import Card from "../components/fragments/Card"
+import Products from "../components/fragments/Products"
+
 function Product () {
     return(
-        <p>isi nya apa aja dlu</p>
+        // <Products></Products>
+        <Products></Products>
     )
 }
 
